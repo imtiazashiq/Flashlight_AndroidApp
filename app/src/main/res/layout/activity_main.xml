@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141518"
+
+    android:orientation="vertical"
+    tools:context="codism.blinkingflashlight.MainActivity">
+
+
+
+    <ToggleButton
+        android:button="@drawable/custom_toggle"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:id="@+id/imageToggleButton"
+        android:background="@android:color/transparent"
+        android:foregroundGravity="center" />
+
+
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_margin="70dp"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/blinking1"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="Design by Codism"
+        android:gravity="bottom|center"
+        android:background="#141518"
+        android:textColor="#ffffff"
+        android:id="@+id/tv1"
+        />
+</LinearLayout>
+
+
+
